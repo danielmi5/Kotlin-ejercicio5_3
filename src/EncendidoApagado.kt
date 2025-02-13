@@ -1,5 +1,8 @@
 interface EncendidoApagado {
-    fun encender()
+    fun encender(){ println("Encendiendo...")
+    }
 
-    fun apagar()
+    fun apagar(){
+        println("Apagando...")
+    }
 }

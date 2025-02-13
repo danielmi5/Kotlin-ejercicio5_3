@@ -4,18 +4,17 @@ fun main(){
     print("Presiona ENTER para continuar...")
     readln()
 
-    val lavadora = Lavadora()
+    val lavadora = Lavadora("Bosch")
     println()
     lavadora.encender()
     lavadora.apagar()
-    lavadora.reiniciar()
     print("Presiona ENTER para continuar...")
     readln()
 
-    val telefono = Telefono()
+    val telefono = Telefono("Nokia")
     println()
     telefono.encender()
-    telefono.apagar()
-    telefono.encender()
     telefono.reiniciar()
+    telefono.apagar()
+
 }

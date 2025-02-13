@@ -1,4 +1,4 @@
-class Telefono: DispositivoElectronico, EncendidoApagado {
+class Telefono(private val marca: String): DispositivoElectronico, EncendidoApagado {
     override fun encender() {
         println("Encendiendo teléfono...")
     }

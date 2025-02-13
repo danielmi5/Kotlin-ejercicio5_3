@@ -1,5 +1,5 @@
 class Coche(
-    var marca: String,
+    private var marca: String,
 
 
 ): Vehiculo, EncendidoApagado {
