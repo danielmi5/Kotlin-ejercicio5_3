@@ -40,7 +40,7 @@ class Coche(
                 if (opcion == 1) acelerar(EntradaCoche.pedirKm("acelerar")) else frenar(EntradaCoche.pedirKm("frenar"))
 
                 if (kmHora == 0) {
-                    println("Estás en medio de la carretera, ¿Quieres aparcar?")
+                    println("Estás en medio de la carretera, ¿quieres aparcar?")
                     if (quiereAparcar()) apagar() else acelerar(EntradaCoche.pedirKm("acelerar"))
                 }
             }

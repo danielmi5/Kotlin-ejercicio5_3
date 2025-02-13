@@ -16,6 +16,6 @@ fun main(){
     println()
     telefono.encender()
     telefono.apagar()
-    lavadora.encender()
-    lavadora.reiniciar()
+    telefono.encender()
+    telefono.reiniciar()
 }

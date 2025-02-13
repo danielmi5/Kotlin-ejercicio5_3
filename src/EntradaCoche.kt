@@ -11,7 +11,7 @@ class EntradaCoche {
             }
             return opcion
         }
-        fun crearListaOpciones(numOpciones: Int): List<Int>{
+        private fun crearListaOpciones(numOpciones: Int): List<Int>{
             val listaOpciones = mutableListOf<Int>()
             for (i in 1..numOpciones){
                 listaOpciones.add(i)
