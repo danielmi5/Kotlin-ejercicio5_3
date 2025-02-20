@@ -47,4 +47,8 @@ class Coche(
         }
         println("Saliendo del coche...")
     }
+
+    override fun toString(): String {
+        return "Coche(marca = $marca)"
+    }
 }

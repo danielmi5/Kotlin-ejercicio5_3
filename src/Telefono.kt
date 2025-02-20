@@ -7,7 +7,7 @@ class Telefono(private val marca: String): DispositivoElectronico, EncendidoApag
         println("Apagando teléfono...")
     }
 
-    override fun reiniciar() {
-        super.reiniciar()
+    override fun toString(): String {
+        return "Telefono(marca = $marca)"
     }
 }
